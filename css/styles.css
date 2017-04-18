@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.header {
+  padding: 5px;
+  background: #f00;
+  margin-bottom: 50px;
+}
+
+.home-img {
+  width: 48%;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.copy {
+  width: 48%;
+}
+
+.header > ul > li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.header > ul > li > a {
+  font-size: 26px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header > ul > li > a:visited {
+  color: #fff;
+}
+
+h1 {
+  color: #fff;
+}
+.copy > p {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+.content {
+  padding: 10px;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.contact-font {
+  font-size: 25px;
+  text-align: center;
+}
+
+.contact-font > p{
+  margin: 12px 0;
+}
+
+.number {
+  color: #f00;
+  font-weight: bold;
+}
+
+.facebook-link {
+  color: #f00;
+}
+
+.card {
+  width: 50%;
+  height: 300px;
+  background: url('../img/burger.jpg');
+  background-size: cover;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card > span {
+  color: #fff;
+  margin: auto;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px black;
+}
